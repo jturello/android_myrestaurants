@@ -29,8 +29,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
         android:text="@string/myrestaurants"
-        android:textColor="@color/colorTextIcons"
-        android:textSize="40sp" />
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/findRestaurantsButton"
