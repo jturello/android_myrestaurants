@@ -8,7 +8,6 @@
     android:visibility="visible"
     tools:context="com.jturello.myrestaurants.MainActivity">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
@@ -25,13 +24,27 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/myrestaurants"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:text="@string/myrestaurants"
         android:textColor="@color/colorSecondaryText"
         android:textSize="40sp"
         android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@color/colorTextIcons"
+        android:gravity="center_horizontal"
+        android:hint="@string/enter_zip_code_hint"
+        android:inputType="number"
+        android:textSize="20dp"
+        android:padding="5dp" />
 
     <Button
         android:id="@+id/findRestaurantsButton"

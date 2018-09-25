@@ -2,5 +2,7 @@
     <string name="app_name">MyRestaurants</string>
     <string name="find_restaurants">Find Restaurants</string>
     <string name="myrestaurants">MyRestaurants</string>
-    <string name="splash_photo_description">Splash PHoto Tacos</string>
+    <string name="splash_photo_description">Splash Photo Tacos</string>
+    <string name="enter_zip_code_hint">Enter Zip Code</string>
+    <string name="restaurants_near">Restaurants near</string>
 </resources>
